@@ -18,3 +18,5 @@ Design and overall functionality is my own implementation
 - cd fun-chat
 - npm install
 - npm run start
+
+**Deploy**: https://lonelybush.netlify.app/
