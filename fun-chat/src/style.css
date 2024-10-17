@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    body{
+        font-size: 15px;
+    }
+
+    .user-status.active{
+        width: 2px;
+        height: 2px;
+    }
+    .user-status.inactive{
+        width: 2px;
+        height: 2px;
+    }
+    .users-sections{
+        padding: 10px;
+    }
+    .title-block{
+        gap:8px;
+    }
+    .btn-block{
+        gap:5px;
+    }
+
+    .date-label{
+        font-size: 9px;
+    }
+    .name-label{
+        font-size: 9px;
+    }
+
+    .user-contact{
+        gap: 5px;
+    }
+
+    .user-login{
+        font-size: 12px;
+    }
+
+    .text-message{
+        font-size: 12px;
+    }
+
+    .text-footer{
+        font-size:9px;
+      }
+}

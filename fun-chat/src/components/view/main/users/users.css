@@ -1,0 +1,76 @@
+.users-sections{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #e6e7e7;
+    padding: 10px;
+    gap: 10px;
+    width: 20%;
+}
+
+.users-block{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    overflow: auto;
+}
+
+.user-login{
+    margin: 0;
+}
+
+.user-status.active{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.user-status.inactive{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.user-label{
+    margin: 0px;
+
+}
+.status {
+    margin: 0px;
+}
+
+.status.active{
+    color: green;
+}
+
+.status.inactive{
+    color: red;
+}
+
+
+
+.user-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.user-contact:hover{
+    background-color: #d7d8d8;
+}
+
+.user-contact.hide{
+    display: none;
+}
+
+.search-input {
+    display: flex;
+    width: 90%;
+}

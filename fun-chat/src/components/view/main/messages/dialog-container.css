@@ -1,0 +1,134 @@
+.dialog-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.dialog-content{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    overflow: auto;
+    padding: 5px;
+    gap: 5px;
+}
+
+.dialog-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid black;
+    height: 10%;
+    box-sizing: border-box;
+}
+
+.dialog-element{
+    display: flex;
+    margin: 0;
+    text-align: center;
+    align-self: center;
+}
+
+.message-form{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.message-input{
+    width: 85%
+}
+
+.message-submit {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 20px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  }
+  
+  .message-submit:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  .message-submit:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  .message-submit:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+
+  .style-message{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #F3F4F6;
+    border-radius: 15px;
+    width: 50%;
+    padding:5px;
+  }
+
+  .style-message.to{
+    align-self: flex-end;
+  }
+
+  .style-message.from{
+    align-self: flex-start;
+  }
+  .message-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .name-label{
+    margin: 0;
+    font-size: 15px;
+  }
+  .date-label{
+    margin:0;
+    font-size:15px;
+  }
+
+  .text-message{
+    margin:0;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
+
+  .message-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .text-footer{
+    margin:0;
+    font-size:15px;
+  }

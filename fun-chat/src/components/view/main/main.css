@@ -1,0 +1,13 @@
+.main-section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    gap: 10px;
+}
